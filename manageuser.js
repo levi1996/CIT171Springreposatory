@@ -7,7 +7,7 @@ let verifypassword = "";
 let passwordRegEx=/((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%!]).{6,40})/;
 
 function setPhoneNumber(){
-    phoneNumber = $("phoneNumber").val();
+    phoneNumber = $("#phoneNumber").val();
 }
 
 function setusername(){
